@@ -1,0 +1,123 @@
+
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-weight: 500;
+    margin: 2rem 0;
+    letter-spacing : 1px;
+}
+p{
+    font-size: 1.6 rem;
+    line-height: 1.5;
+
+}
+
+@font-face {
+    font-family: 'Dancing Script', cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+}
+
+.photo-grid{
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    display:flex;
+    /* flex-direction: row; */
+    flex-wrap:wrap;
+}
+.figure{
+    flex-basis: calc(33.333% - 2rem);
+    border: 1px solid burlywood;
+    padding: 2rem;
+    /* flex-grow: 1; */
+    margin: 2rem, 2rem, 2rem, 2rem;
+
+    /* background-color: aqua;/ */
+}
+
+.photo{
+    width: calc(100% + 3rem);
+    margin: -1rem 0 0 -1.5rem;
+        /* flex-direction: column; */
+    /* height: 100vw; */
+    /* justify-content: center; */
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.remove-button{
+    flex-basis:48%;
+    color: red;
+    font-size: 15px;
+    border: 2px solid rgb(195, 169, 255);
+    line-height: 2;
+    padding: 5px; 
+}
+
+.btn-btn{
+    margin: 20px auto;
+    display: table;
+    padding: 44px 44px;
+    background-image: url("https://img.icons8.com/ios-filled/50/000000/insert-button.png");
+    background-size: contain;
+    border: none;
+    /* justify-content: center; */
+}
+
+.form{
+    /* background-color: aqua; */
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    display: table;
+    padding: 40px;
+    /* align-items: center; */
+}
+
+.form input{
+    font-family:  sans-serif;
+    background-color: blanchedalmond;
+    width:  100%;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.secondpage{
+    border: none;
+    margin: 15px 1px 15px 160px;
+    background-color:darkseagreen;
+    text-transform: uppercase;
+    justify-content: center;
+    display: table;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.font button{
+    font-family: sans-serif;
+    
+    /* background: cornflowerblue; */
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    
+
+}
+
+.form button:hover{
+    background: turquoise;
+}
